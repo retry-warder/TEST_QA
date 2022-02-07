@@ -1,0 +1,12 @@
+- Error calling context method (ExecuteCommand):
+  Ошибка при открытии навигационной ссылки, подвисание с предыдущего теста
+- Expected number of lines in <BasisesTree> table is равно 0 and actual number is <2>.
+  Закрытый заказ не выполнен по некоторым позициям
+-Form table named <List> is not found.
+ Скорей всего, не отработал переход в форму списка, из за ошибок закрытия формы
+-_092003 check serial lot number in the Retail return receipt
+	Не совпадают данные при сравнении таблиц, не заполнен столбец Branch
+-The button/command with <Sales invoice> header is not found.
+ Неправильно описана кнопка формы в сценарии
+-Unable to move to the required line in <BasisesTree> table.
+ не срабатывает сверка таблиц по количеству
